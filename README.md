@@ -5,7 +5,9 @@ Twitter Bot Account: [@botmoonphase](https://twitter.com/botmoonphase)
 ## Instalation and deploy
 
 1. Clone the repository
-2. Execute `python main.py`
+2. Copy `.env.example` to `.env`
+3. Insert Twitter API keys & stuff to `.env`
+4. Execute `python main.py`
 
 ## TODOs
 
