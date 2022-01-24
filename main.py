@@ -1,5 +1,4 @@
 import schedule
-import logging
 import os
 from dotenv import load_dotenv
 import tweepy
@@ -20,7 +19,6 @@ def tweet():
     current_moon_phase = moonphase.current()
     current_moon_phase_emoji = moonphase.current_emoji()
     tweet_text = 'Today the Moon Phase will be %s %s' % (current_moon_phase, current_moon_phase_emoji)
-    logging.info(tweet_text)
     print(tweet_text)
     print(API)
     api = API()
